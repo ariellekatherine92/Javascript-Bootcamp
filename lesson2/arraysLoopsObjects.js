@@ -8,7 +8,9 @@ for (let i = 0; i < 5; i++) {
 // Now you try, write a for loop that will print out the numbers 1 - 100
 
 
-
+for (let i = 0; i <=100; i++) {
+    console.log(i)
+}
 
 
 
@@ -16,19 +18,28 @@ for (let i = 0; i < 5; i++) {
 // Exercise 2
 // Set a new variable to value of an array
 
+const newVar =[];
+
 
 // Print out the third item in the array
-let breakfast = ['eggs', 'milk', 'cereal', 'orange'];
+let breakfast = ['eggs', 'milk', 'cereal', 'orange', 'banana'];
+console.log(breakfast[2])
 
 
 // Set a new variable to the last value of the "breakfast" array
 // Use the .length - 1 method to get the last item of the array
 
 
+for(let i = 0; i<= breakfast.length - 1; i++) {
+    console.log(breakfast[i])
+}
+
 
 // Loop through the array, "breakfast", and log each value within the array
 
-
+for(let i = 0; i < breakfast.length; i++) {
+    console.log(breakfast[i])
+}
 
 
 
