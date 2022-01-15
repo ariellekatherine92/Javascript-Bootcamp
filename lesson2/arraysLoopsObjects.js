@@ -48,7 +48,12 @@ for(let i = 0; i < breakfast.length; i++) {
 
 // Exercise 3
 // Set a new variable to a vlue of an object
-
+let Ariel = {
+    name: "Ariel",
+    age: 29,
+    gender: "female"
+}
+console.log(Ariel.age)
 
 // Print out the "color" value of the "car"
 let car = {
@@ -57,14 +62,22 @@ let car = {
     year: 1999
 };
 
+console.log(car.color);
 // Set a new key called "model" on the "car" object, set it with any value
+
+car.model = "Jeep";
 
 
 // Print out the value you just created
 
+console.log(car.model);
 
 // Loop through the car object with a "for...in loop" and log each key and value
 
-
+for(const key in car) {
+    // console.log('this is the key => ', key);
+    // console.log('this is the value => ',car);
+    console.log(key, ":", car[key]);
+}
 
 
